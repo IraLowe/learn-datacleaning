@@ -41,7 +41,7 @@ Totaltiny <- melt(totaldatafinalmean,
                                    variable.name = "measure",
                                    value.name = "summary means",
                                     id.vars = c("activity", "subjects"))
-write.table(Totaltiny,"Totaltiny.r")
+write.table(Totaltiny,"Totaltiny.txt", row.names = FALSE)
 
 
 
